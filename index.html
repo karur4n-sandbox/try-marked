@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>try marked</title>
+  <link rel="stylesheet" href="./assets/main.css">
+</head>
+<body>
+  <div class="markdown-form">
+    <ul class="form-tab">
+      <li class="js-write-tab">Write</li>
+      <li class="js-preview-tab">Preview</li>
+    </ul>
+    <div>
+      <textarea class="markdown-body">
+#aa
+##bb
+###ccc
+Hi みなさん
+
+- 1
+- 2
+- 3
+      </textarea>
+      <div class="markdown-preview hidden"></div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="./node_modules/marked/lib/marked.js"></script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>

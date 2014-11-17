@@ -1,0 +1,21 @@
+.form-tab {
+  padding: 0;
+}
+
+.form-tab li {
+  list-style: none;
+  display: inline-table;
+}
+
+.form-tab li:hover {
+  cursor: pointer;
+}
+
+.markdown-body {
+  width: 300px;
+  height: 200px;
+}
+
+.hidden {
+  display: none;
+}

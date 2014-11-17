@@ -1,0 +1,19 @@
+{
+  "name": "try-marked",
+  "version": "0.0.1",
+  "authors": [
+    "karur4n"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marked": "~0.3.2"
+  }
+}
